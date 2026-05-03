@@ -39,20 +39,20 @@ export const Footer = () => {
               <Link 
                 href="https://linkedin.com/in/rizqiah" 
                 target="_blank"
-                className="p-3 rounded-full bg-surface-dark/5 dark:bg-stone-900 text-foreground/70 hover:bg-primary hover:text-black transition-all"
+                className="p-3 rounded-full bg-black/5 dark:bg-white/5 border border-border text-foreground/70 hover:bg-primary hover:text-white dark:hover:text-black transition-all"
               >
                 <LinkedinIcon size={20} />
               </Link>
               <Link 
                 href="https://github.com/Rizqi30" 
                 target="_blank"
-                className="p-3 rounded-full bg-surface-dark/5 dark:bg-stone-900 text-foreground/70 hover:bg-primary hover:text-black transition-all"
+                className="p-3 rounded-full bg-black/5 dark:bg-white/5 border border-border text-foreground/70 hover:bg-primary hover:text-white dark:hover:text-black transition-all"
               >
                 <GithubIcon size={20} />
               </Link>
               <Link 
                 href="mailto:rizqiah.rah14@gmail.com" 
-                className="p-3 rounded-full bg-surface-dark/5 dark:bg-stone-900 text-foreground/70 hover:bg-primary hover:text-black transition-all"
+                className="p-3 rounded-full bg-black/5 dark:bg-white/5 border border-border text-foreground/70 hover:bg-primary hover:text-white dark:hover:text-black transition-all"
               >
                 <Mail size={20} />
               </Link>

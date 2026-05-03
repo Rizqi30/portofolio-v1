@@ -57,21 +57,35 @@ export const EXPERIENCES: Experience[] = [
   },
 ];
 
+import {
+  ReactIcon,
+  NextIcon,
+  VueIcon,
+  TsIcon,
+  TailwindIcon,
+  LaravelIcon,
+  NodeIcon,
+  DatabaseIcon,
+  GitIcon,
+  FigmaIcon,
+  ZapIcon
+} from '@/components/icons';
+
 export const SKILLS: Skill[] = [
-  { name: 'React JS', category: 'Frontend', icon: Code2 },
-  { name: 'Next JS', category: 'Frontend', icon: Layers },
-  { name: 'Vue JS', category: 'Frontend', icon: Layout },
-  { name: 'Typescript', category: 'Frontend', icon: Terminal },
-  { name: 'Tailwind CSS', category: 'Frontend', icon: Palette },
+  { name: 'React JS', category: 'Frontend', icon: ReactIcon },
+  { name: 'Next JS', category: 'Frontend', icon: NextIcon },
+  { name: 'Vue JS', category: 'Frontend', icon: VueIcon },
+  { name: 'Typescript', category: 'Frontend', icon: TsIcon },
+  { name: 'Tailwind CSS', category: 'Frontend', icon: TailwindIcon },
   
-  { name: 'Laravel', category: 'Backend', icon: Server },
-  { name: 'Node JS', category: 'Backend', icon: Cpu },
-  { name: 'MySQL', category: 'Backend', icon: Database },
-  { name: 'MongoDB', category: 'Backend', icon: Database },
+  { name: 'Laravel', category: 'Backend', icon: LaravelIcon },
+  { name: 'Node JS', category: 'Backend', icon: NodeIcon },
+  { name: 'MySQL', category: 'Backend', icon: DatabaseIcon },
+  { name: 'MongoDB', category: 'Backend', icon: DatabaseIcon },
   
-  { name: 'Git', category: 'Tools', icon: GitBranch },
-  { name: 'Figma', category: 'Tools', icon: PenTool },
-  { name: 'Midtrans Integration', category: 'Tools', icon: Zap },
+  { name: 'Git', category: 'Tools', icon: GitIcon },
+  { name: 'Figma', category: 'Tools', icon: FigmaIcon },
+  { name: 'Midtrans Integration', category: 'Tools', icon: ZapIcon },
 ];
 
 export const PROJECTS: Project[] = [

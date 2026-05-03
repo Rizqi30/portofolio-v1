@@ -1,8 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/Button';
-import { FileDown, Mail } from 'lucide-react';
 import Image from 'next/image';
 import { SOCIALS } from '@/constants';
 import { GithubIcon, LinkedinIcon } from '@/components/icons';
@@ -66,17 +64,6 @@ export const Hero = () => {
               LinkedIn
               <div className="absolute inset-0 rounded-xl bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity" />
             </motion.a>
-          </div>
-
-          <div className="flex flex-wrap gap-4">
-            <Button className="flex items-center gap-2">
-              <FileDown size={20} />
-              Download CV
-            </Button>
-            <Button variant="outline" className="flex items-center gap-2">
-              <Mail size={20} />
-              Contact Me
-            </Button>
           </div>
         </motion.div>
 
