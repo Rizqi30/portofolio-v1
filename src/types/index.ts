@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { LucideIcon } from 'lucide-react';
 
 export interface Experience {
@@ -15,7 +16,7 @@ export type SkillCategory = 'Frontend' | 'Backend' | 'Tools';
 export interface Skill {
   name: string;
   category: SkillCategory;
-  icon: LucideIcon;
+  icon: React.ComponentType<{ size?: number; className?: string }>;
 }
 
 export interface Project {
