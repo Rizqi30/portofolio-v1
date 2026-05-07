@@ -34,9 +34,16 @@ export const TimelineCard = ({ experience, index }: TimelineCardProps) => {
           </span>
         </div>
         
-        <h4 className="mb-4 text-md font-semibold text-foreground/60">
-          {experience.company}
-        </h4>
+        <div className="mb-4 flex flex-col gap-1">
+          <h4 className="text-md font-semibold text-foreground/60">
+            {experience.company}
+          </h4>
+          {experience.location && (
+            <span className="text-sm font-medium text-foreground/40">
+              {experience.location}
+            </span>
+          )}
+        </div>
         
         <ul className="space-y-2">
           {experience.description.map((item, i) => (

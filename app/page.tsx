@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="fixed top-6 right-6 z-50 flex items-center gap-4">
         <a 
-          href="/resume.pdf" 
+          href="/CV_Rizqi.pdf" 
           download 
           className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-surface text-foreground font-semibold shadow-md border border-border hover:bg-gray-200 dark:hover:bg-stone-800 transition-all text-sm"
         >

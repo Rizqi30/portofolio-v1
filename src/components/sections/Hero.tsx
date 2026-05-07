@@ -28,7 +28,7 @@ export const Hero = () => {
           </motion.span>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
-            I'm <span className="text-primary">Rizqi Akbar Hidayat.</span>
+            <span className="text-primary">RIZQI AKBAR HIDAYAT</span>
           </h1>
           
           <p className="text-lg text-foreground/70 mb-8 max-w-xl leading-relaxed">
@@ -82,14 +82,11 @@ export const Hero = () => {
             <div className="relative w-full h-full rounded-2xl overflow-hidden border-2 border-gray-200 dark:border-gray-800 bg-surface shadow-2xl">
               <div className="absolute inset-0 flex items-center justify-center text-gray-400">
                 <Image 
-                  src="/next.svg"
+                  src="/linkedin.jpg"
                   alt="Profile"
                   fill
-                  className="object-contain p-12 opacity-20 dark:invert"
+                  className="object-cover"
                 />
-                <span className="absolute bottom-10 font-bold text-sm uppercase tracking-widest text-primary/50">
-                  Rizqi Profile
-                </span>
               </div>
             </div>
           </div>

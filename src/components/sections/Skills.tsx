@@ -16,7 +16,7 @@ export const Skills = () => {
         className="text-center mb-20"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-          Technical <span className="text-primary">Arsenal</span>
+          Technology <span className="text-primary">Stack</span>
         </h2>
         <p className="text-foreground/60 max-w-2xl mx-auto">
           A collection of technologies I use to build robust and scalable digital solutions.

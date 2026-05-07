@@ -4,6 +4,7 @@ import { LucideIcon } from 'lucide-react';
 export interface Experience {
   id: string;
   company: string;
+  location?: string;
   role: string;
   duration: string;
   description: string[];
@@ -22,7 +23,7 @@ export interface Skill {
 export interface Project {
   id: string;
   title: string;
-  description: string;
+  description?: string;
   image: string;
   tags: string[];
   link?: string;

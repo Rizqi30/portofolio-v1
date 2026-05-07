@@ -39,35 +39,35 @@ export const ProjectGallery = () => {
                 alt={project.title}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               {/* Overlay */}
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                <motion.button 
+                <motion.a 
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
-                  className="bg-primary text-black px-6 py-2 rounded-full font-bold flex items-center gap-2"
+                  className="bg-primary text-black px-6 py-2 rounded-full font-bold flex items-center gap-2 cursor-pointer no-underline"
                 >
                   <ExternalLink size={18} />
-                  View Details
-                </motion.button>
+                  Visit Site
+                </motion.a>
               </div>
             </div>
 
             {/* Content */}
             <div className="p-6">
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.tags.map(tag => (
-                  <span key={tag} className="text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded bg-primary/10 text-primary border border-primary/20">
-                    {tag}
-                  </span>
-                ))}
-              </div>
+
               <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
                 {project.title}
               </h3>
-              <p className="text-foreground/60 text-sm leading-relaxed mb-4">
-                {project.description}
-              </p>
+              {project.description && (
+                <p className="text-foreground/60 text-sm leading-relaxed mb-4">
+                  {project.description}
+                </p>
+              )}
             </div>
           </motion.div>
         ))}
