@@ -19,7 +19,7 @@ export const TimelineCard = ({ experience, index }: TimelineCardProps) => {
           opacity: 0 
         }}
         whileInView={{ x: 0, opacity: 1 }}
-        viewport={{ once: true, margin: "-50px" }}
+        viewport={{ once: false, margin: "-50px" }}
         transition={{ duration: 0.6, delay: 0.2 }}
         className={`ml-12 md:ml-0 w-[calc(100%-3rem)] md:w-[42%] p-8 rounded-2xl border border-border bg-surface/50 backdrop-blur-sm shadow-sm hover:shadow-md transition-shadow ${
           experience.isCurrent ? 'border-primary/30 ring-1 ring-primary/20' : ''

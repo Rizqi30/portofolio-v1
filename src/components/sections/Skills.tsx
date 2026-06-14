@@ -12,7 +12,7 @@ export const Skills = () => {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: false }}
         className="text-center mb-20"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
@@ -29,7 +29,7 @@ export const Skills = () => {
             key={category}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ delay: catIndex * 0.2 }}
             className="flex flex-col gap-6"
           >

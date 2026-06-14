@@ -8,7 +8,7 @@ export const TimelineLine = () => {
       <motion.div
         initial={{ height: 0 }}
         whileInView={{ height: '100%' }}
-        viewport={{ once: true }}
+        viewport={{ once: false }}
         transition={{ duration: 1.5, ease: "easeInOut" }}
         className="h-full w-full bg-primary shadow-[0_0_10px_var(--primary)]"
       />

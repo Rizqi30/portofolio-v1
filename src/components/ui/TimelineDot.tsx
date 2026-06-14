@@ -14,7 +14,7 @@ export const TimelineDot = ({ icon: Icon, isCurrent }: TimelineDotProps) => {
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
-        viewport={{ once: true }}
+        viewport={{ once: false }}
         transition={{ duration: 0.5, ease: "backOut" }}
         className={`relative flex h-10 w-10 items-center justify-center rounded-full border-2 bg-white dark:bg-stone-950 ${
           isCurrent 

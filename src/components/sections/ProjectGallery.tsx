@@ -11,7 +11,7 @@ export const ProjectGallery = () => {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: false }}
         className="text-center mb-20"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
@@ -28,7 +28,7 @@ export const ProjectGallery = () => {
             key={project.id}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ delay: index * 0.1 }}
             className="group relative rounded-2xl overflow-hidden border border-border bg-surface/50 backdrop-blur-sm shadow-xl"
           >
