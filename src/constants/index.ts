@@ -23,7 +23,7 @@ export const EXPERIENCES: Experience[] = [
     id: 'pln',
     company: 'PT. PLN (Persero)',
     role: 'Front End Engineer',
-    duration: 'Nov 2025 – Present',
+    duration: 'Nov 2025 – Oct 2026',
     description: [
       'Spearheading front-end development for internal utility applications, optimizing performance, and ensuring high-quality UI/UX across platforms.',
       'Collaborating with cross-functional teams, including backend engineers and designers, to deliver scalable and robust solutions.',
